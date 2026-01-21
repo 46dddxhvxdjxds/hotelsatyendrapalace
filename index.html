@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOTEL SATYENDRA PALACE - Luxury Wedding Venue</title>
+  <meta name="description"
+    content="Premium destination for luxury weddings and grand celebrations in Rohtas, Bihar. Book your special day at Hotel Satyendra Palace.">
+
+  <!-- External Dependencies -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;500;600;700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    .font-serif {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .font-tinos {
+      font-family: 'Tinos', serif;
+    }
+  </style>
+</head>
+
+<body class="bg-stone-50 text-stone-900">
+
+  <!-- Desktop Navbar -->
+  <nav class="hidden md:block sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-20 items-center">
+        <a href="#/" class="flex items-center gap-2 group">
+          <div
+            class="w-10 h-10 bg-[#FF002B] rounded-full flex items-center justify-center text-white font-tinos text-xl italic group-hover:opacity-90 transition-opacity">
+            HS
+          </div>
+          <span class="text-xl font-bold tracking-tight font-tinos text-stone-800 uppercase">
+            HOTEL SATYENDRA <span class="text-[#FF002B]">PALACE</span>
+          </span>
+        </a>
+
+        <div class="flex items-center gap-8">
+          <a href="#/" class="text-sm font-medium transition-colors text-stone-600 hover:text-[#FF002B]">Home</a>
+          <a href="#/gallery"
+            class="text-sm font-medium transition-colors text-stone-600 hover:text-[#FF002B]">Gallery</a>
+          <a href="#/book" class="text-sm font-medium transition-colors text-stone-600 hover:text-[#FF002B]">Book
+            Now</a>
+
+          <a href="tel:+919939200913"
+            class="flex items-center gap-2 text-[#FF002B] font-bold text-sm bg-red-50 px-4 py-2 rounded-full hover:bg-[#FF002B] hover:text-white transition-all border border-red-100">
+            <i class="fa-solid fa-phone"></i>
+            +91 9939200913
+          </a>
+
+          <div id="user-section">
+            <!-- User section will be populated by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile/Tablet Floating UI -->
+  <div class="md:hidden">
+    <!-- Top Floating Brand -->
+    <div class="fixed top-6 left-0 right-0 z-[60] text-center px-4 pointer-events-none">
+      <h1
+        class="text-[#FF002B] font-bold text-lg sm:text-xl tracking-wide bg-white shadow-xl inline-block px-5 py-2.5 rounded-full uppercase border border-stone-100 pointer-events-auto font-tinos">
+        HOTEL SATYENDRA PALACE
+      </h1>
+    </div>
+
+    <!-- Bottom Floating Pill Menu -->
+    <div class="fixed bottom-8 left-1/2 -translate-x-1/2 z-[60] w-[90%] max-w-[420px] mobile-nav-container">
+      <div
+        class="bg-white rounded-full px-5 py-3 flex items-center justify-between shadow-[0_15px_40px_rgba(0,0,0,0.18)] border border-stone-100/50 backdrop-blur-md relative">
+        <div class="flex items-center gap-4 flex-grow overflow-x-auto no-scrollbar">
+          <a href="#/"
+            class="mobile-nav-link text-[14px] font-medium tracking-tight whitespace-nowrap transition-all duration-300 text-[#6B7280]">Home</a>
+          <a href="#/gallery"
+            class="mobile-nav-link text-[14px] font-medium tracking-tight whitespace-nowrap transition-all duration-300 text-[#6B7280]">Gallery</a>
+          <a href="#/book"
+            class="mobile-nav-link text-[14px] font-medium tracking-tight whitespace-nowrap transition-all duration-300 text-[#6B7280]">Book
+            Now</a>
+        </div>
+
+        <div class="flex items-center ml-2" id="mobile-user-section">
+          <!-- Mobile user section will be populated by JavaScript -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content Area -->
+  <main class="flex-grow pt-0">
+    <div id="app">
+      <!-- Page content will be rendered here by JavaScript -->
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#1C1917] text-stone-400 py-16 px-4 pb-44 md:pb-16 mt-20">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-16">
+      <div class="space-y-6">
+        <h3 class="text-white font-tinos text-2xl uppercase tracking-wider">HOTEL SATYENDRA PALACE</h3>
+        <p class="text-sm leading-relaxed opacity-80">
+          A premium destination for luxury weddings and grand celebrations. We specialize in making your special moments
+          truly unforgettable.
+        </p>
+        <div class="flex gap-4">
+          <a href="#"
+            class="w-10 h-10 rounded-full border border-stone-800 flex items-center justify-center hover:bg-[#FF002B] hover:text-white transition-all"><i
+              class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"
+            class="w-10 h-10 rounded-full border border-stone-800 flex items-center justify-center hover:bg-[#FF002B] hover:text-white transition-all"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/919939200913" target="_blank" rel="noopener noreferrer"
+            class="w-10 h-10 rounded-full border border-stone-800 flex items-center justify-center hover:bg-[#FF002B] hover:text-white transition-all"><i
+              class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4 class="text-white font-bold uppercase tracking-widest text-xs mb-8">Navigation</h4>
+        <ul class="space-y-4 text-sm font-medium">
+          <li><a href="#/" class="hover:text-[#FF002B] transition-colors">Home Page</a></li>
+          <li><a href="#/gallery" class="hover:text-[#FF002B] transition-colors">Our Gallery</a></li>
+          <li><a href="#/book" class="hover:text-[#FF002B] transition-colors">Book Online Now</a></li>
+          <li><a href="#/login" class="hover:text-[#FF002B] transition-colors">Member Login</a></li>
+        </ul>
+      </div>
+      <div class="space-y-8">
+        <div>
+          <h4 class="text-white font-bold uppercase tracking-widest text-xs mb-6">Contact Us</h4>
+          <div class="space-y-4 text-sm">
+            <div class="flex flex-col gap-3">
+              <p class="flex items-start gap-4">
+                <i class="fa-solid fa-location-dot text-[#FF002B] mt-1"></i>
+                <span>Nimdihra Road, Kargahar<br /><span class="text-xs opacity-60">Rohtas, Bihar, PIN
+                    821107</span></span>
+              </p>
+              <a href="https://maps.app.goo.gl/ux2uo4Gef4h3Hdyo9" target="_blank" rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 px-4 py-2 bg-stone-800/50 border border-stone-700 rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-[#FF002B] hover:border-[#FF002B] hover:text-white transition-all w-fit">
+                <i class="fa-solid fa-map-location-dot"></i>
+                View on Google Maps
+              </a>
+            </div>
+            <a href="tel:+919939200913"
+              class="flex items-center gap-4 pt-2 hover:text-[#FF002B] transition-colors group">
+              <i class="fa-solid fa-phone text-[#FF002B] group-hover:scale-110 transition-transform"></i>
+              <span class="font-bold">+91 9939200913</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="max-w-7xl mx-auto border-t border-stone-800/50 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest font-bold">
+      <p>&copy; <span id="current-year"></span> HOTEL SATYENDRA PALACE</p>
+      <div class="flex gap-6">
+        <a href="#/privacy" class="hover:text-white">Privacy Policy</a>
+        <a href="#/terms" class="hover:text-white">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Utility Scripts -->
+  <script>
+    // Set current year in footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Load Application Scripts -->
+  <script src="utils/api.js"></script>
+  <script src="utils/storage.js"></script>
+  <script src="utils/auth.js"></script>
+  <script src="utils/router.js"></script>
+  <script src="pages/home.js"></script>
+  <script src="pages/gallery.js"></script>
+  <script src="pages/booking.js"></script>
+  <script src="pages/login.js"></script>
+  <script src="pages/admin.js"></script>
+  <script src="pages/privacy.js"></script>
+  <script src="pages/terms.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
